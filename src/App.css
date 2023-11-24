@@ -129,7 +129,7 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 0;
   background-color: #121212;
 }
 nav.navbar a {
@@ -138,14 +138,14 @@ nav.navbar a {
 nav.navbar p {
   margin-top: 1.3%;
   display: inline;
-  font-family: Ubuntu;
+  font-family: Ubuntu, serif;
   font-weight: 100;
   font-size: 30pt;
   color: #d7d0ba;
 }
 nav.navbar b {
   display: inline;
-  font-family: Ubuntu;
+  font-family: Ubuntu, serif;
   font-weight: 900;
   font-size: 30pt;
   color: #d7d0ba;
@@ -391,7 +391,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 55px 0 0 55px;
 }
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -526,14 +526,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .footer h2 {
   display: inline;
-  font-family: Ubuntu;
+  font-family: Ubuntu, serif;
   font-weight: 100;
   font-size: 30pt;
   color: #d7d0ba;
 }
 .footer b {
   display: inline;
-  font-family: Ubuntu;
+  font-family: Ubuntu, serif;
   font-weight: 900;
   font-size: 30pt;
   color: #d7d0ba;
