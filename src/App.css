@@ -154,16 +154,16 @@ nav.navbar b {
 nav.navbar a.navbar-brand {
   width: 9%;
 }
-nav.navbar .navbar-nav .nav-link.navbar-link {
+nav.navbar .navbar-nav .navbar-link {
   font-weight: 400;
-  color: #d7d0ba !important;
+  color: #d7d0ba;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+nav.navbar .navbar-nav a.navbar-link:hover,
+nav.navbar .navbar-nav a.navbar-link.active {
   opacity: 1;
 }
 span.navbar-text {
@@ -184,7 +184,7 @@ span.navbar-text {
   align-items: center;
   justify-content: center;
   line-height: 1;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid #d7d0ba;
 }
 .social-icon a::before {
   content: "";
@@ -212,22 +212,22 @@ span.navbar-text {
 .navbar-text button {
   font-weight: 700;
   color: #d7d0ba;
-  padding: 18px 34px;
+  padding: 12px 34px;
   font-size: 18px;
   margin-left: 18px;
   position: relative;
   background: rgba(217, 217, 217, 0.1);;
   border: 1px solid #d7d0ba;
   transition: 0.3s;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 .navbar-text button span {
   z-index: 50;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 .navbar-text button:hover {
   color: #000;
-  border-radius: 50px;
+  border-radius: 20px;
   background-color: #d7d0ba;
 }
 nav.navbar .navbar-toggler:active,
@@ -264,12 +264,12 @@ nav.navbar .navbar-toggler-icon:after {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg);
-  background-color: #fff;
+  background-color: #d7d0ba;
   height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #d7d0ba;
   height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
@@ -576,4 +576,78 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .scroll-to-top-button.visible {
   opacity: 1;
+}
+
+
+/* Login form */
+.login {
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  background-color: #d7d0ba;
+}
+
+.login a{
+  color: #121212;
+  text-decoration: none;
+}
+
+.login a:hover{
+  font-size: 17pt;
+}
+
+.back{
+  font-size: 16pt;
+  margin-left: 50px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.login h1 {
+  display: flex;
+  justify-content: center;
+  color: #121212;
+  margin-top: -40px;
+}
+
+.login form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20pt;
+}
+
+.login input {
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20pt 20pt;
+  border: none;
+  background-color: #121212;
+  color: #d7d0ba;
+}
+
+.login button{
+  background-color: rgba(18, 18, 18, 0.5);
+  border:2px solid #121212;
+  color: #121212;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.login button:hover{
+  background-color: #121212;
+  color: #d7d0ba;
 }
