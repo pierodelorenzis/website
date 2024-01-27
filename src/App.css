@@ -351,14 +351,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .java{
   max-width: 80%;
 }
+.springboot{
+  max-width: 70%;
+}
 .react{
-  max-width: 60%;
+  max-width: 50%;
 }
 .css{
   max-width: 80%;
-}
-.sass{
-  max-width: 70%;
 }
 .language{
   color: black;

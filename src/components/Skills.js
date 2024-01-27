@@ -43,6 +43,14 @@ export const Skills = () => {
                 </div>
                 <div className="row row-level">
                     <div className="col-4">
+                        <p>Spring Boot</p>
+                    </div>
+                    <div className="col-8">
+                        <p className="level springboot">80%</p>
+                    </div>
+                </div>
+                <div className="row row-level">
+                    <div className="col-4">
                         <p>React</p>
                     </div>
                     <div className="col-8">
@@ -55,14 +63,6 @@ export const Skills = () => {
                     </div>
                     <div className="col-8">
                         <p className="level css">90%</p>
-                    </div>
-                </div>
-                <div className="row row-level">
-                    <div className="col-4">
-                        <p>SASS</p>
-                    </div>
-                    <div className="col-8">
-                        <p className="level sass">80%</p>
                     </div>
                 </div>
 

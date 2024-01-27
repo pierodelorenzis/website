@@ -7,7 +7,7 @@ export const Banner = () => {
             <Container>
 
                 <img src={headerImg} alt="Header Img"/>
-                <h1>software developer</h1>
+                <h1>Software developer</h1>
                 <p>Information engigneer</p>
 
             </Container>
